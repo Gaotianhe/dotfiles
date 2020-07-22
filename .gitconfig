@@ -1,0 +1,12 @@
+[alias]
+        st = status
+        co = checkout
+        br = branch
+        ci = commit
+        som = push origin master
+        lom = pull origin master
+[credential]
+        helper = store
+[user]
+        email = 19855812775@163.com
+        name = Gaotianhe
