@@ -73,7 +73,7 @@ DISABLE_UPDATE_PROMPT="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 #git
-zsh-syntax-highlighting
+zsh-syntax-highlighting # https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 zsh-autosuggestions
 )
 
