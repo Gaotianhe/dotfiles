@@ -1,3 +1,4 @@
+export PATH="$PATH:$(yarn global bin)"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -71,7 +72,7 @@ DISABLE_UPDATE_PROMPT="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-git
+#git
 zsh-syntax-highlighting
 zsh-autosuggestions
 )
@@ -107,52 +108,25 @@ source $ZSH/oh-my-zsh.sh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/gth/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/gth/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/gth/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/gth/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+## __conda_setup="$('/home/gth/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+## if [ $? -eq 0 ]; then
+##     eval "$__conda_setup"
+## else
+##     if [ -f "/home/gth/miniconda3/etc/profile.d/conda.sh" ]; then
+##         . "/home/gth/miniconda3/etc/profile.d/conda.sh"
+##     else
+##         export PATH="/home/gth/miniconda3/bin:$PATH"
+##     fi
+## fi
+## unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH=/home/gth/miniconda3/bin:$PATH
-
-# Vagrant
-export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
-export PATH="$PATH:/mnt/d/VBox"
-export VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH="/mnt/f/Vagrant"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# install java env reference link:https://blog.csdn.net/c13232906050/article/details/83025020
-export DISPLAY=:0.0
-export LIBGL_ALWAYS_INDIRECT=1
-
-#pinyin
-export XMODIFIERS=@im=fcitx
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-
-# dbeaver
-export DBEAVER_HOME=/opt/dbeaver/current
-export PATH=$DBEAVER_HOME:$PATH
-
-# idea
-export IDEA_HOME=/opt/idea/current
-export PATH=$IDEA_HOME/bin:$PATH
-
-# RDM
-export RDM_HOME=/opt/redis-desktop-manager
-export PATH=$RDM_HOME:$PATH
-
-cd ~
-
-setopt no_nomatch
+# poetry-python:PYTHON PACKAGING AND DEPENDENCY MANAGEMENT MADE EASY
+source $HOME/.poetry/env
