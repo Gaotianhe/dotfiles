@@ -3,8 +3,8 @@
         co = checkout
         br = branch
         ci = commit
-        som = push origin master
-        lom = pull origin master
+        som = push origin main
+        lom = pull origin main
 [credential]
         helper = store
 [user]
