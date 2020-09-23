@@ -130,3 +130,16 @@ export NVM_DIR="$HOME/.nvm"
 
 # poetry-python:PYTHON PACKAGING AND DEPENDENCY MANAGEMENT MADE EASY
 source $HOME/.poetry/env
+
+# terminal proxy (Ubuntu)
+export http_proxy=http://127.0.0.1:1080
+export https_proxy=http://127.0.0.1:1080
+
+export http_proxy_user=user
+export http_proxy_pass=pass
+
+export https_proxy_user=user
+export https_proxy_pass=pass
+# cancel proxy
+## export http_proxy=
+## export https_proxy=
