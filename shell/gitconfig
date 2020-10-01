@@ -1,0 +1,12 @@
+[alias]
+        st = status
+        co = checkout
+        br = branch
+        ci = commit
+        som = push origin main
+        lom = pull origin main
+[credential]
+        helper = store
+[user]
+        email = email
+        name = name
