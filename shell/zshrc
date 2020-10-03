@@ -11,7 +11,9 @@ export ZSH="/home/gth/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="fox"
 
-# Themes that I like: crunch, fox, gnzh
+# Themes that I like: 
+# crunch, fox, gnzh
+# spaceship(https://github.com/denysdovhan/spaceship-prompt#oh-my-zsh)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
