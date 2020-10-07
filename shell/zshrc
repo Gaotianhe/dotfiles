@@ -154,3 +154,9 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# duf
+export DUF=/usr/local/duf
+
+# gpg
+export GPG_TTY=$(tty)

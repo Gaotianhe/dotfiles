@@ -8,5 +8,23 @@
 [credential]
         helper = store
 [user]
-        email = email
-        name = name
+        email = 19855812775@163.com
+        name = Jimgao
+        signingkey = 0B46CE3217B756F0
+[advice]
+        addIgnoredFile = false
+[core]
+        eol = lf
+        quotepath = false
+[gui]
+        encoding = utf-8
+[i18n "commit"]
+        encoding = utf-8
+[i18n]
+        logoutputencoding = utf-8
+[pull]
+        rebase = false
+[commit]
+        gpgsign = true
+[gpg]
+        program = /usr/bin/gpg
