@@ -138,6 +138,10 @@ source $HOME/.poetry/env
 export http_proxy=http://127.0.0.1:1080
 export https_proxy=http://127.0.0.1:1080
 
+# vbox
+#export http_proxy=http://10.0.2.2:1080
+#export https_proxy=http://10.0.2.2:1080
+
 export http_proxy_user=user
 export http_proxy_pass=pass
 
