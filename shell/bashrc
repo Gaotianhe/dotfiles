@@ -151,3 +151,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # gpg
 export GPG_TTY=$(tty)
+
+# for Enable Public Access on your X11 server for Windows.
+export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
+export LIBGL_ALWAYS_INDIRECT=1
