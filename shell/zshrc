@@ -1,12 +1,6 @@
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
 export ZSH="/home/user/.oh-my-zsh"
-
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="nodeys"
 
 # Themes that I like: 
@@ -14,14 +8,11 @@ ZSH_THEME="nodeys"
 # spaceship(https://github.com/denysdovhan/spaceship-prompt#oh-my-zsh)
 # nodeys(https://github.com/tianheg/nodeys-zsh-theme/blob/master/nodeys.zsh-theme)
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
 DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
 DISABLE_UPDATE_PROMPT="true"
 
 plugins=(
-docker
+git
 zsh-syntax-highlighting 
 zsh-autosuggestions     
 )
@@ -37,9 +28,23 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# alias zshc="vim ~/.zshrc"
-# alias ohmyzsh="vim ~/.oh-my-zsh"
+alias rezsh="source $HOME/.zshrc"
+alias gad="git add --all"
+alias gci="git commit -m"
+alias gsm="git push origin main"
+alias glm="git pull origin main"
 
+# tj/n 的路径
+export N_PREFIX="$HOME/.n"
+# 当切换 Node.js 版本时保留 npm
+export N_PRESERVE_NPM=1
+# 将 tj/n 添加到 PATH
+export N_PREFIX=$HOME/.n
+export PATH=$N_PREFIX/bin:$PATH
+
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 ## __conda_setup="$('/home/gth/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
