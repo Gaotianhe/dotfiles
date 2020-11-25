@@ -1,21 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "shift+insert",
-        "command": "-editor.action.clipboardPasteAction",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "editor.action.clipboardPasteAction",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "-editor.action.clipboardPasteAction",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
         "key": "shift+delete",
         "command": "-editor.action.clipboardCutAction",
         "when": "textInputFocus && !editorReadonly"
@@ -64,11 +49,6 @@
         "when": "editorTextFocus && !suggestWidgetVisible"
     },
     {
-        "key": "ctrl+v",
-        "command": "-filesExplorer.paste",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
-    },
-    {
         "key": "ctrl+shift+v",
         "command": "-java.action.clipboardPasteAction",
         "when": "javaLSReady && editorLangId == 'java'"
@@ -79,29 +59,9 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+v",
-        "command": "-markdown.extension.editing.paste",
-        "when": "editorHasSelection && editorTextFocus && editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+shift+v",
-        "command": "-markdown.extension.togglePreview",
-        "when": "!terminalFocus"
-    },
-    {
         "key": "ctrl+k v",
         "command": "-markdown.extension.togglePreviewToSide",
         "when": "!terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+v",
-        "command": "-html.showPreview",
-        "when": "editorLangId == 'html'"
-    },
-    {
-        "key": "ctrl+k v",
-        "command": "-html.showPreviewToSide",
-        "when": "editorLangId == 'html'"
     },
     {
         "key": "ctrl+shift+v",
@@ -114,21 +74,29 @@
         "when": "editorLangId == 'markdown'"
     },
     {
-        "key": "ctrl+q ctrl+q",
-        "command": "md-shortcut.showCommandPalette",
-        "when": "editorTextFocus && markdownShortcuts:enabled"
-    },
-    {
-        "key": "ctrl+m ctrl+m",
-        "command": "-md-shortcut.showCommandPalette",
-        "when": "editorTextFocus && markdownShortcuts:enabled"
-    },
-    {
         "key": "ctrl+alt+z",
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
         "key": "ctrl+b",
         "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-notebook.find",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused || terminalFocus"
     }
 ]
