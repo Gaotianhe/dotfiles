@@ -1,0 +1,95 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "extensions.ignoreRecommendations": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.largeFileOptimizations": false,
+    "debug.onTaskErrors": "debugAnyway",
+    "python.analysis.logLevel": "Information",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "workbench.statusBar.visible": true,
+    "editor.renderControlCharacters": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "git.enableSmartCommit": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.preserveFocus": false,
+    "sync.gist": "https://gist.github.com/Gaotianhe",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.quietSync": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "cSpell.userWords": [
+        "Gaotianhe",
+        "Hexo",
+        "delim",
+        "disqus",
+        "hljs",
+        "permalinks",
+        "shortname",
+        "titlecase",
+        "uncategorized"
+    ],
+    "[ruby]": {
+        
+    },
+    "files.associations": {
+    
+
+
+        "*.swig": "bat"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.wordWrap": "on",
+    "java.home": "C:\\Program Files\\Java\\jdk-13.0.2",
+    "java.help.firstView": "gettingStarted",
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "sync.forceDownload": true,
+    "sync.forceUpload": true,
+    "editor.columnSelection": false,
+    "svg.preview.mode": "svg",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.languageServer": "Microsoft",
+    "liveServer.settings.donotVerifyTags": true,
+    "code-runner.languageIdToFileExtensionMap": {
+
+
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "files.eol": "\n",
+    "workbench.colorTheme": "Gray Matter Dark",
+    "projectManager.git.baseFolders": [
+    
+    ],
+    "editor.codeActionsOnSave": null
+}
