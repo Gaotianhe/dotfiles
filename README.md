@@ -36,7 +36,7 @@
 
 ### Extensions
 
-- [markdownlint](vscode/.markdownlint.json) [markdownlint - marketplace](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [markdownlint](vscode/.markdownlint.json) || [markdownlint - marketplace](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 Great dotfiles repo:
 
