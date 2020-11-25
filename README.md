@@ -19,6 +19,7 @@
 - [.zshrc](shell/zshrc)
 - [.zshrc-default](shell/zshrc-default)
 - [.zshrc-simple](shell/zshrc-simple)
+- [Install Nodeys ZSH theme](shell/install-nodeys-zsh-theme.md)
 
 ### Bash
 
