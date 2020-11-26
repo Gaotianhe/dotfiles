@@ -38,6 +38,7 @@
 ### Extensions
 
 - [markdownlint](vscode/.markdownlint.json) || [markdownlint - marketplace](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [.prettierrc](vscode/.prettierrc) || [.prettierrc - marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 Great dotfiles repo:
 
