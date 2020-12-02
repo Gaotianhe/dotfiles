@@ -11,7 +11,7 @@
     "python.analysis.logLevel": "Information",
     "liveServer.settings.donotShowInfoMsg": true,
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "files.autoSave": "afterDelay",
     "workbench.statusBar.visible": true,
@@ -40,11 +40,14 @@
         "titlecase",
         "uncategorized"
     ],
-    "[ruby]": {},
+    "[ruby]": {
+        
+    },
     "files.associations": {
         "*.swig": "bat",
         "*.py": "python",
-        "*.toml": "toml"
+        "*.toml": "toml",
+        "*.mdx": "markdown"
     },
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.views.repositories.location": "scm",
@@ -75,6 +78,8 @@
     "python.languageServer": "Pylance",
     "liveServer.settings.donotVerifyTags": true,
     "code-runner.languageIdToFileExtensionMap": {
+
+
         "bat": ".bat",
         "powershell": ".ps1",
         "typescript": ".ts"
@@ -82,10 +87,11 @@
     "files.eol": "\n",
     "workbench.colorTheme": "Community Material Theme High Contrast",
     "projectManager.git.baseFolders": [
-        "E:\\Github",
+    "E:\\Github", 
     ],
     "java.semanticHighlighting.enabled": true,
     "[java]": {
+    
         "editor.suggest.snippetsPreventQuickSuggestions": false
     },
     "remote.extensionKind": {
@@ -150,5 +156,25 @@
     "editor.renameOnType": true,
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+    
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.md"
+        }
+    ],
+    "leetcode.workspaceFolder": "/mnt/e/github/tianheg/ads/leetcode/zh",
+    "leetcode.defaultLanguage": "c",
+    "leetcode.endpoint": "leetcode-cn",
+    "markdown.preview.breaks": true,
 }
