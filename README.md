@@ -27,6 +27,10 @@
 - [.bashrc-default](shell/bashrc-default)
 - [.bashrc-simple](shell/bashrc-simple)
 
+### Anaconda
+
+- [.conda](shell/conda)
+
 ## VS Code
 
 ### Global
