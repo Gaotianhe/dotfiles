@@ -31,6 +31,12 @@
 
 - [.conda](shell/conda)
 
+## Chrome
+
+### Extensions
+
+- [Stylus](chrome/stylus-2020-12-06.json)
+
 ## VS Code
 
 ### Global
