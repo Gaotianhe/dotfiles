@@ -35,7 +35,7 @@
 
 ### Extensions
 
-- [Stylus](chrome/stylus-2020-12-06.json)
+- [Stylus](chrome/stylus.json)
 
 ## VS Code
 
