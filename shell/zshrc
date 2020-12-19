@@ -107,3 +107,8 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 # yarn
 export PATH="$PATH:$(yarn global bin)"
+
+===
+# arch
+
+export VISUAL="vim"
