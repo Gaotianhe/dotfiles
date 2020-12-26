@@ -12,6 +12,7 @@
         b = "branch"
         a = "add --all"
         ci = "commit -m"
+        sw = "switch"
         sm = "push origin main"
         lm = "pull origin main"
 [commit]
