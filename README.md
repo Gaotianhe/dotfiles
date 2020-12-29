@@ -50,8 +50,12 @@
 - [markdownlint](vscode/.markdownlint.json) [.markdownlintignore](vscode/.markdownlintignore) || [markdownlint - marketplace](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [.prettierrc](vscode/.prettierrc) || [.prettierrc - marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-Great dotfiles repo:
+## Great dotfiles repo:
 
 - [muesli/dotfiles](https://github.com/muesli/dotfiles)
 - [holman/dotfiles](https://github.com/holman/dotfiles)
 - [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+
+## Tools
+
+- [Using GNU Stow to manage your dotfiles](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html)
