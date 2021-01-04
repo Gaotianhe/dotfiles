@@ -164,8 +164,20 @@
     
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+<<<<<<< HEAD
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
+=======
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+    
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+>>>>>>> c7e65e0d308b32f1d659b58e47580dc04992afb7
     },
     "workbench.editorAssociations": [
         {
@@ -177,6 +189,7 @@
     "leetcode.defaultLanguage": "c",
     "leetcode.endpoint": "leetcode-cn",
     "markdown.preview.breaks": true,
+<<<<<<< HEAD
     "leetcode.useWsl": true,
     "leetcode.hint.configWebviewMarkdown": false,
     "leetcode.showDescription": "In File Comment",
@@ -188,3 +201,6 @@
     "terminal.integrated.rendererType": "dom",
     "gitlens.mode.active": "zen",
 }
+=======
+}
+>>>>>>> c7e65e0d308b32f1d659b58e47580dc04992afb7

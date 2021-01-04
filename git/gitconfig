@@ -1,21 +1,28 @@
-[alias]
-        st = status
-        co = checkout
-        br = branch
-        ci = commit
-        som = push origin main
-        lom = pull origin main
-[credential]
-        helper = store
-[user]
-        email = 19855812775@163.com
-        name = Jimgao
-        signingkey = 0B46CE3217B756F0
-[advice]
-        addIgnoredFile = false
 [core]
         eol = lf
         quotepath = false
+        autocrlf = false
+[user]
+        email = 19855812775@163.com
+        name = Jimgao
+        signingkey = B042B4BD634A2B13
+[alias]
+        st = "status"
+        co = "checkout"
+        b = "branch"
+        a = "add --all"
+        ci = "commit -m"
+        sw = "switch"
+        sm = "push origin main"
+        lm = "pull origin main"
+[commit]
+        gpgsign = true
+[gpg]
+        program = /usr/bin/gpg
+[advice]
+        addIgnoredFile = false
+[credential]
+        helper = store
 [gui]
         encoding = utf-8
 [i18n "commit"]
@@ -24,12 +31,10 @@
         logoutputencoding = utf-8
 [pull]
         rebase = false
-[commit]
-        gpgsign = true
-[gpg]
-        program = /usr/bin/gpg
 [diff]
         submodule = log
+[init]
+	defaultBranch = main
 [http]
         proxy = socks5://127.0.0.1:1080
 [https]

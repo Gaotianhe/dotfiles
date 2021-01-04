@@ -47,17 +47,17 @@ export PATH=$N_PREFIX/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin"
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-## __conda_setup="$('/home/gth/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-## if [ $? -eq 0 ]; then
-##     eval "$__conda_setup"
-## else
-##     if [ -f "/home/gth/miniconda3/etc/profile.d/conda.sh" ]; then
-##         . "/home/gth/miniconda3/etc/profile.d/conda.sh"
-##     else
-##         export PATH="/home/gth/miniconda3/bin:$PATH"
-##     fi
-## fi
-## unset __conda_setup
+__conda_setup="$('/home/gth/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+ if [ $? -eq 0 ]; then
+     eval "$__conda_setup"
+ else
+     if [ -f "/home/gth/miniconda3/etc/profile.d/conda.sh" ]; then
+         . "/home/gth/miniconda3/etc/profile.d/conda.sh"
+     else
+         export PATH="/home/gth/miniconda3/bin:$PATH"
+     fi
+ fi
+ unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH=/home/gth/miniconda3/bin:$PATH
@@ -107,3 +107,8 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 # yarn
 export PATH="$PATH:$(yarn global bin)"
+
+===
+# arch
+
+export VISUAL="vim"
