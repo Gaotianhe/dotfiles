@@ -11,7 +11,7 @@
     "python.analysis.logLevel": "Information",
     "liveServer.settings.donotShowInfoMsg": true,
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "files.autoSave": "afterDelay",
     "workbench.statusBar.visible": true,
@@ -40,11 +40,14 @@
         "titlecase",
         "uncategorized"
     ],
-    "[ruby]": {},
+    "[ruby]": {
+        
+    },
     "files.associations": {
         "*.swig": "bat",
         "*.py": "python",
-        "*.toml": "toml"
+        "*.toml": "toml",
+        "*.mdx": "markdown"
     },
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.views.repositories.location": "scm",
@@ -75,17 +78,20 @@
     "python.languageServer": "Pylance",
     "liveServer.settings.donotVerifyTags": true,
     "code-runner.languageIdToFileExtensionMap": {
+
+
         "bat": ".bat",
         "powershell": ".ps1",
         "typescript": ".ts"
     },
     "files.eol": "\n",
-    "workbench.colorTheme": "Community Material Theme High Contrast",
+    "workbench.colorTheme": "Palenight Theme",
     "projectManager.git.baseFolders": [
-        "E:\\Github",
+    "E:\\Github", 
     ],
     "java.semanticHighlighting.enabled": true,
     "[java]": {
+    
         "editor.suggest.snippetsPreventQuickSuggestions": false
     },
     "remote.extensionKind": {
@@ -149,6 +155,36 @@
     "workbench.sideBar.location": "left",
     "editor.renameOnType": true,
     "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "[css]": {
+    
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.md"
+        }
+    ],
+    "leetcode.workspaceFolder": "/mnt/e/github/tianheg/ads/leetcode/zh",
+    "leetcode.defaultLanguage": "c",
+    "leetcode.endpoint": "leetcode-cn",
+    "markdown.preview.breaks": true,
+    "leetcode.useWsl": true,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.showDescription": "In File Comment",
+    "leetcode.hint.commentDescription": false,
+    "leetcode.hint.commandShortcut": false,
+    "python.showStartPage": false,
+    "python.formatting.provider": "black",
+    "jupyter.allowUnauthorizedRemoteConnection": true,
+    "terminal.integrated.rendererType": "dom",
+    "gitlens.mode.active": "zen",
 }
