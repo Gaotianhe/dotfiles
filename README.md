@@ -31,6 +31,8 @@
 
 ### Global
 
+> These three files all come from `C:\Users\yourname\AppData\Roaming\Code\User`
+
 - [settings](vscode/settings.json)
 - [keybindings](vscode/keybindings.json)
 - [syncLocalSettings](vscode/syncLocalSettings.json)
