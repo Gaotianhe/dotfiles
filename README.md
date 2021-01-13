@@ -36,6 +36,7 @@
 ### Extensions
 
 - [Stylus](chrome/stylus.json)
+- [refined-github](https://github.com/sindresorhus/refined-github)
 
 ## VS Code
 
