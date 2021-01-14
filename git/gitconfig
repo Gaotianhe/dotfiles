@@ -4,7 +4,7 @@
         autocrlf = false
 [user]
         email = 19855812775@163.com
-        name = Jimgao
+        name = tianheg
         signingkey = B042B4BD634A2B13
 [alias]
         st = "status"
@@ -15,6 +15,12 @@
         sw = "switch"
         sm = "push origin main"
         lm = "pull origin main"
+        sje = "push origin jekyll"
+        lje = "pull origin jekyll"
+        shu = "push origin hugo"
+        lhu = "pull origin hugo"
+        svp = "push origin vuepress"
+        lvp = "pull origin vuepress"
 [commit]
         gpgsign = true
 [gpg]
