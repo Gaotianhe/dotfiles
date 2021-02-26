@@ -2,6 +2,7 @@
         eol = lf
         quotepath = false
         autocrlf = false
+	safecrlf = true
 [user]
         email = yidajiabei@163.com
         name = tianheg
