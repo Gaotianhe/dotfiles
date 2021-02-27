@@ -33,6 +33,8 @@ alias gad="git add --all"
 alias gci="git commit -m"
 alias gsm="git push origin main"
 alias glm="git pull origin main"
+alias til="cd /mnt/e/github/tianheg/til"
+alias blog="cd /mnt/e/github/tianheg/blog"
 
 # tj/n 的路径
 export N_PREFIX="$HOME/.n"
