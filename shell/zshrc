@@ -35,6 +35,7 @@ alias gsm="git push origin main"
 alias glm="git pull origin main"
 alias til="cd /mnt/e/github/tianheg/til"
 alias blog="cd /mnt/e/github/tianheg/blog"
+alias news-translation="cd /mnt/e/github/tianheg/news-translation"
 
 # tj/n 的路径
 export N_PREFIX="$HOME/.n"
