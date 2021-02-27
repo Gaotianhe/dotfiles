@@ -2,7 +2,7 @@
         eol = lf
         quotepath = false
         autocrlf = false
-	safecrlf = true
+        safecrlf = true
 [user]
         email = yidajiabei@163.com
         name = tianheg
@@ -41,7 +41,7 @@
 [diff]
         submodule = log
 [init]
-	defaultBranch = main
+        defaultBranch = main
 [http]
         proxy = socks5://127.0.0.1:1080
 [https]
