@@ -15,7 +15,6 @@
     },
     "files.autoSave": "afterDelay",
     "workbench.statusBar.visible": true,
-    "editor.renderControlCharacters": false,
     "git.autofetch": true,
     "git.confirmSync": false,
     "explorer.confirmDragAndDrop": false,
@@ -86,9 +85,6 @@
     },
     "files.eol": "\n",
     "workbench.colorTheme": "Palenight Theme",
-    "projectManager.git.baseFolders": [
-    "E:\\Github", 
-    ],
     "java.semanticHighlighting.enabled": true,
     "[java]": {
     
@@ -150,10 +146,10 @@
     "liveSassCompile.settings.generateMap": false,
     "terminal.integrated.shell.linux": "/bin/zsh",
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.sideBar.location": "left",
-    "editor.renameOnType": true,
+    "editor.linkedEditing": true,
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
@@ -164,20 +160,8 @@
     
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-<<<<<<< HEAD
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-=======
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-    
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
->>>>>>> c7e65e0d308b32f1d659b58e47580dc04992afb7
     },
     "workbench.editorAssociations": [
         {
@@ -189,7 +173,6 @@
     "leetcode.defaultLanguage": "c",
     "leetcode.endpoint": "leetcode-cn",
     "markdown.preview.breaks": true,
-<<<<<<< HEAD
     "leetcode.useWsl": true,
     "leetcode.hint.configWebviewMarkdown": false,
     "leetcode.showDescription": "In File Comment",
@@ -199,8 +182,14 @@
     "python.formatting.provider": "black",
     "jupyter.allowUnauthorizedRemoteConnection": true,
     "terminal.integrated.rendererType": "dom",
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.exportType": "pptx",
+    "workbench.activityBar.visible": true,
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "github.codespaces.createCodespaceInNewWindow": true,
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.cursorStyle": "line",
     "gitlens.mode.active": "zen",
+    "http.proxy": "http://127.0.0.1:12333",
 }
-=======
-}
->>>>>>> c7e65e0d308b32f1d659b58e47580dc04992afb7
