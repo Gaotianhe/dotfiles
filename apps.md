@@ -2,6 +2,7 @@
 
 ## Used
 
+- [Continuous Integration and Delivery - CircleCI](https://circleci.com/)
 - [DashboardHub](https://dashboardhub.io/) | [GitHub](https://github.com/dashboardhub/) | Manage GitHub Repos
 - [UptimeRobot](https://uptimerobot.com/) | Monitor site status
 
