@@ -8,7 +8,7 @@
 ## Common
 
 - [Oh My Zsh](https://ohmyz.sh/) | [GitHub](https://github.com/ohmyzsh/ohmyzsh)
-- [VS Code]
+- VS Code
 
 ## Ubuntu
 
