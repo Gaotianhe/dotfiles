@@ -1,0 +1,127 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "extensions.ignoreRecommendations": true,
+    "editor.largeFileOptimizations": false,
+    "debug.onTaskErrors": "debugAnyway",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "workbench.statusBar.visible": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.preserveFocus": false,
+    "files.associations": {
+        "*.swig": "bat",
+        "*.py": "python",
+        "*.toml": "toml",
+        "*.mdx": "markdown"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.startupEditor": "newUntitledFile",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.wordWrap": "on",
+    "editor.columnSelection": false,
+    "svg.preview.mode": "img",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "code-runner.languageIdToFileExtensionMap": {
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "files.eol": "\n",
+    "[java]": {
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "remote.extensionKind": {
+        "softwaredotcom.swdc-vscode": "workspace"
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.wait": 0,
+    "update.showReleaseNotes": false,
+    "settingsSync.ignoredExtensions": [
+        "ms-vscode-remote.remote-wsl",
+        "joaompinto.vscode-graphviz",
+        "thekalinga.bootstrap4-vscode",
+        "philipbe.theme-gray-matter",
+        "ms-vscode-remote.remote-containers"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#80CBC4",
+        "activityBar.activeBorder": "#80CBC4",
+        "list.activeSelectionForeground": "#80CBC4",
+        "list.inactiveSelectionForeground": "#80CBC4",
+        "list.highlightForeground": "#80CBC4",
+        "scrollbarSlider.activeBackground": "#80CBC450",
+        "editorSuggestWidget.highlightForeground": "#80CBC4",
+        "textLink.foreground": "#80CBC4",
+        "progressBar.background": "#80CBC4",
+        "pickerGroup.foreground": "#80CBC4",
+        "tab.activeBorder": "#80CBC4",
+        "notificationLink.foreground": "#80CBC4",
+        "editorWidget.resizeBorder": "#80CBC4",
+        "editorWidget.border": "#80CBC4",
+        "settings.modifiedItemIndicator": "#80CBC4",
+        "settings.headerForeground": "#80CBC4",
+        "panelTitle.activeBorder": "#80CBC4",
+        "breadcrumb.activeSelectionForeground": "#80CBC4",
+        "menu.selectionForeground": "#80CBC4",
+        "menubar.selectionForeground": "#80CBC4",
+        "editor.findMatchBorder": "#80CBC4",
+        "selection.background": "#80CBC440",
+        "statusBarItem.remoteBackground": "#80CBC4"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "terminal.integrated.shell.linux": "bash",
+    "workbench.sideBar.location": "left",
+    "editor.linkedEditing": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.md"
+        }
+    ],
+    "markdown.preview.breaks": true,
+    "workbench.activityBar.visible": true,
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "github.codespaces.createCodespaceInNewWindow": true,
+    "terminal.integrated.cursorStyle": "line",
+    "gitlens.mode.active": "review",
+    "http.proxy": "http://127.0.0.1:12333",
+    "workbench.colorTheme": "Palenight Theme",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.productIconTheme": "icons-carbon",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux"
+        },
+        "pwsh": {
+            "path": "pwsh"
+        }
+    },
+}
