@@ -43,7 +43,8 @@
 
 ### Global
 
-- [settings](vscode/settings.json)
+- [settings-ubuntu](vscode/settings-ubuntu.json)
+- [settings-win10](vscode/settings-win10.json)
 - [keybindings](vscode/keybindings.json)
 - [syncLocalSettings](vscode/syncLocalSettings.json)
 
