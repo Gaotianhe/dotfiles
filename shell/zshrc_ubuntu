@@ -18,10 +18,6 @@ ZSH_DISABLE_COMPFIX="true"
 # User configuration
 
 alias rezsh="source $HOME/.zshrc"
-alias gad="git add --all"
-alias gci="git commit -m"
-alias gsm="git push origin main"
-alias glm="git pull origin main"
 alias til="cd ~/github/tianheg/til"
 alias blog="cd ~/github/tianheg/blog"
 alias news-translation="cd ~/github/tianheg/news-translation"
