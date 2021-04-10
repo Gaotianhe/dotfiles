@@ -6,3 +6,4 @@
 - [Oh My Zsh](https://ohmyz.sh/) | [GitHub](https://github.com/ohmyzsh/ohmyzsh)
 - VS Code
 - [FOSSA](https://fossa.com/)
+- [Drone CI](https://www.drone.io/)
