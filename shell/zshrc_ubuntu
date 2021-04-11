@@ -8,8 +8,9 @@ DISABLE_UPDATE_PROMPT="true"
 
 plugins=(
 git
-zsh-syntax-highlighting 
-zsh-autosuggestions     
+zsh-syntax-highlighting
+zsh-autosuggestions
+web-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -22,8 +23,12 @@ alias til="cd ~/github/tianheg/til"
 alias blog="cd ~/github/tianheg/blog"
 alias news-translation="cd ~/github/tianheg/news-translation"
 alias review="cd ~/github/tianheg/review"
-alias bb="python3 ~/github/tianheg/bb/bb.py"
 alias im="cd ~/github/tianheg/important-doc"
+alias good="cd ~/github/tianheg/good"
+alias en="cd ~/github/tianheg/english"
+alias web="cd ~/github/tianheg/web-collection"
+
+alias bb="python3 ~/github/tianheg/bb/bb.py"
 
 # tj/n 的路径
 #export N_PREFIX="$HOME/.n"
