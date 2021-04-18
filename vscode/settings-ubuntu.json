@@ -101,11 +101,11 @@
     "workbench.settings.enableNaturalLanguageSearch": false,
     "github.codespaces.createCodespaceInNewWindow": true,
     "terminal.integrated.cursorStyle": "line",
-    "gitlens.mode.active": "review",
+    "gitlens.mode.active": "zen",
     "http.proxy": "http://127.0.0.1:12333",
     "workbench.colorTheme": "Palenight Theme",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.productIconTheme": "icons-carbon",
+    "workbench.productIconTheme": "fluent-icons",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.profiles.linux": {
         "bash": {
@@ -124,4 +124,10 @@
             "path": "pwsh"
         }
     },
+    "projectManager.git.baseFolders": [
+        "~/github"
+    ],
+    "vscode_custom_css.imports": [
+        "file:///home/tianheg/github/vscode-powerline/powerline.css"
+    ],
 }
