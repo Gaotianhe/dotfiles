@@ -37,7 +37,7 @@
 [i18n]
         logoutputencoding = utf-8
 [pull]
-        rebase = false
+        rebase = true # false
 [diff]
         submodule = log
 [init]
