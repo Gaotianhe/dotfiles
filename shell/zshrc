@@ -40,11 +40,9 @@ alias news-translation="cd ~/github/tianheg/news-translation"
 
 # tj/n 的路径
 export N_PREFIX="$HOME/.n"
-# 当切换 Node.js 版本时保留 npm
-export N_PRESERVE_NPM=1
-# 将 tj/n 添加到 PATH
-export N_PREFIX=$HOME/.n
 export PATH=$N_PREFIX/bin:$PATH
+export N_PRESERVE_NPM=1 # 当切换 Node.js 版本时保留 npm
+
 
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
