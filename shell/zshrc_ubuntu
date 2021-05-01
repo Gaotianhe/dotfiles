@@ -30,8 +30,6 @@ alias web="cd ~/github/tianheg/web-collection"
 alias self="cd ~/github/tianheg/self"
 alias eie="cd ~/github/tianheg/eie"
 
-alias gp="git push origin pages"
-
 alias bb="python3 ~/github/tianheg/bb/bb.py"
 
 # tj/n 的路径
