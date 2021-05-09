@@ -80,7 +80,7 @@
     },
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
-    "terminal.integrated.shell.linux": "bash",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "workbench.sideBar.location": "left",
     "editor.linkedEditing": true,
     "[markdown]": {
@@ -127,7 +127,9 @@
     "projectManager.git.baseFolders": [
         "~/github"
     ],
-    "vscode_custom_css.imports": [
-        "file:///home/tianheg/github/vscode-powerline/powerline.css"
-    ],
+    "json.maxItemsComputed": 100000,
+    "workbench.editor.untitled.hint": "hidden",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": false,
 }
