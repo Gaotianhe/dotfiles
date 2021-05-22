@@ -30,6 +30,7 @@ alias self="cd ~/github/tianheg/self"
 alias articles="cd ~/github/tianheg/articles"
 
 alias bb="python3 ~/github/tianheg/bb/bb.py"
+alias new="./new.sh" # only run under ~/github/tianheg/articles
 
 # tj/n 的路径
 #export N_PREFIX="$HOME/.n"
@@ -38,8 +39,8 @@ alias bb="python3 ~/github/tianheg/bb/bb.py"
 #export PATH=$N_PREFIX/bin:$PATH
 
 # terminal proxy (Ubuntu)
-export http_proxy="socks5://127.0.0.1:7891"
-export socks_proxy="socks5://127.0.0.1:7891"
+export http_proxy="http://127.0.0.1:7890"
+export https_proxy="https://127.0.0.1:7890"
 
 # gpg
 export GPG_TTY=$(tty)
@@ -65,5 +66,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # autojump
 [[ -s /home/tianheg/.autojump/etc/profile.d/autojump.sh ]] && source /home/tianheg/.autojump/etc/profile.d/autojump.sh
-
-	autoload -U compinit && compinit -u
+autoload -U compinit && compinit -u
