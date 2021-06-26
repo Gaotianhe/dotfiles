@@ -7,21 +7,6 @@
         email = yidajiabei@163.com
         name = tianheg
         signingkey = B042B4BD634A2B13
-[alias]
-        st = "status"
-        co = "checkout"
-        b = "branch"
-        a = "add --all"
-        ci = "commit -m"
-        sw = "switch"
-        sm = "push origin main"
-        lm = "pull origin main"
-        sje = "push origin jekyll"
-        lje = "pull origin jekyll"
-        shu = "push origin hugo"
-        lhu = "pull origin hugo"
-        svp = "push origin vuepress"
-        lvp = "pull origin vuepress"
 [commit]
         gpgsign = true
 [gpg]
