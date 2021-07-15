@@ -36,8 +36,34 @@
 
 ### Extensions
 
+- [Extension Manager](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
 - [Stylus](chrome/stylus.json)
 - [refined-github](https://github.com/sindresorhus/refined-github)
+- [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+- [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk)
+- [Copycat](https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg)
+- [Copyfish](https://chrome.google.com/webstore/detail/copyfish-%F0%9F%90%9F-free-ocr-soft/eenjdnjldapjajjofmldgmkjaienebbj)
+- [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+- [Decentraleyes](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
+- [Enhancer for YouTube™](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
+- [flomoplus](https://chrome.google.com/webstore/detail/flomoplus/kcijjmomofpdcpeiagibojhjifhegepj)
+- [GNOME Shell integration](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep)
+- HTML5 Outliner
+- Notion Web Clipper
+- Octotree - GitHub code tree
+- OneTab
+- Postman Interceptor
+- Proxy SwitchyOmega
+- Rainbow Color Picker
+- RSSHub Radar
+- Saladict
+- SimpRead
+- Speedtest by Ookla
+- Take Webpage Screenshots Entirely - FireShot
+- Tampermonkey
+- Wappalyzer
+- Wayback Machine
+- Zotero Connector
 
 ## VS Code
 
